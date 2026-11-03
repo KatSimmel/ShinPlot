@@ -20,7 +20,6 @@ type
     edPNGParams: TSynEdit;
     SynGnuplotSyn1: TSynGnuplotSyn;
     procedure FormCreate(Sender: TObject);
-    procedure Label1Click(Sender: TObject);
 
   private
 
@@ -43,11 +42,6 @@ implementation
 procedure TfParams.FormCreate(Sender: TObject);
 begin
    edPNGParams.Font.Quality:= fqAntialiased;
-end;
-
-procedure TfParams.Label1Click(Sender: TObject);
-begin
-
 end;
 
 

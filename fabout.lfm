@@ -4,7 +4,7 @@ object fAboutIDE: TfAboutIDE
   Top = 173
   Width = 420
   BorderStyle = bsSingle
-  Caption = 'About GnuplotIDE'
+  Caption = 'About ShinPlot'
   ClientHeight = 450
   ClientWidth = 420
   Icon.Data = {
@@ -7529,7 +7529,7 @@ object fAboutIDE: TfAboutIDE
       Top = 272
       Width = 319
       AutoSize = False
-      Caption = 'Version: 1.0.0'#10'Author: DiscoCat-Dev'#10'Copyright: © 2026'#10'License: GNU GPL v3'
+      Caption = 'Version: 1.0.0'#10'Author: KatSimmel'#10'Copyright: © 2026'#10'License: GNU GPL v3'
     end
     object Link: TLabel
       Cursor = crHandPoint

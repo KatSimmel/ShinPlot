@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, main, fPM, fXpm, fcolors, fAbout;
+  Forms, fAbout, fColors, fpm, fXpm, main;
 
 {$R *.res}
 
@@ -23,10 +23,10 @@ begin
   {$POP}
   Application.Initialize;
   Application.CreateForm(TfMain, fMain);
+  Application.CreateForm(TfAboutIDE, fAboutIDE);
+  Application.CreateForm(TfColor, fColor);
   Application.CreateForm(TfParams, fParams);
   Application.CreateForm(TfX11Params, fX11Params);
-  Application.CreateForm(TfColor, fColor);
-  Application.CreateForm(TfAboutIDE, fAboutIDE);
   Application.Run;
 end.
 

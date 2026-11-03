@@ -52,48 +52,39 @@
         <IsPartOfProject Value="True"/>
       </Unit>
       <Unit>
-        <Filename Value="../GnuplotIDE/main.pas"/>
+        <Filename Value="fabout.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="fMain"/>
+        <ComponentName Value="fAboutIDE"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fAbout"/>
       </Unit>
       <Unit>
-        <Filename Value="../GnuplotIDE/terminal.pas"/>
+        <Filename Value="fcolors.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="fterminal"/>
+        <ComponentName Value="fColor"/>
         <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fColors"/>
       </Unit>
       <Unit>
-        <Filename Value="../GnuplotIDE/fpm.pas"/>
+        <Filename Value="fpm.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fParams"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
       <Unit>
-        <Filename Value="../GnuplotIDE/Xterm/fxpm.pas"/>
+        <Filename Value="fxpm.pas"/>
         <IsPartOfProject Value="True"/>
         <ComponentName Value="fX11Params"/>
-        <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="fXpm"/>
       </Unit>
       <Unit>
-        <Filename Value="../GnuplotIDE/fcolors.pas"/>
+        <Filename Value="main.pas"/>
         <IsPartOfProject Value="True"/>
-        <ComponentName Value="fColor"/>
-        <HasResources Value="True"/>
+        <ComponentName Value="fMain"/>
         <ResourceBaseClass Value="Form"/>
-        <UnitName Value="fColors"/>
-      </Unit>
-      <Unit>
-        <Filename Value="../GnuplotIDE/fabout.pas"/>
-        <IsPartOfProject Value="True"/>
-        <ComponentName Value="fAboutIDE"/>
-        <HasResources Value="True"/>
-        <ResourceBaseClass Value="Form"/>
-        <UnitName Value="fAbout"/>
       </Unit>
     </Units>
   </ProjectOptions>
@@ -104,7 +95,6 @@
     </Target>
     <SearchPaths>
       <IncludeFiles Value="$(ProjOutDir)"/>
-      <OtherUnitFiles Value="../GnuplotIDE/Xterm"/>
       <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
     </SearchPaths>
     <Linking>

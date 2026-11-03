@@ -762,7 +762,7 @@ end;
 
 procedure TfMain.GitHelpClick(Sender: TObject);
 begin
-  OpenURL('https://github.com/DiscoCat-Dev/ShinPlot');
+  OpenURL('https://github.com/KatSimmel/ShinPlot');
 end;
 
 procedure TfMain.InsertDataFileClick(Sender: TObject);

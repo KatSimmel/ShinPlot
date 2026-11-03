@@ -7774,7 +7774,6 @@ object fParams: TfParams
     AutoSize = False
     Caption = 'DO NOT run any plotting commands inside this editor.'#10'DO NOT change the plot size. The plot is determined automatically by the application window.'#10#10'Configure only: Terminal background color; Fonts and Font sizes. '
     WordWrap = True
-    OnClick = Label1Click
   end
   object Image1: TImage
     Left = 16
